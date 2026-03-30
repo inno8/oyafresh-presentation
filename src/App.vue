@@ -2,28 +2,28 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import gsap from 'gsap'
 
-// Slides
+// Slides following RIO24 guidelines
 import HeroSlide from './components/slides/HeroSlide.vue'
+import ProductSlide from './components/slides/ProductSlide.vue'
 import ProblemSlide from './components/slides/ProblemSlide.vue'
-import OriginStorySlide from './components/slides/OriginStorySlide.vue'
 import SolutionSlide from './components/slides/SolutionSlide.vue'
-import MarketSlide from './components/slides/MarketSlide.vue'
 import BusinessModelSlide from './components/slides/BusinessModelSlide.vue'
+import InnovationSlide from './components/slides/InnovationSlide.vue'
 import FinancialsSlide from './components/slides/FinancialsSlide.vue'
 import CompetitiveEdgeSlide from './components/slides/CompetitiveEdgeSlide.vue'
-import RoadmapSlide from './components/slides/RoadmapSlide.vue'
+import TeamSlide from './components/slides/TeamSlide.vue'
 import AskSlide from './components/slides/AskSlide.vue'
 
 const slides = [
   HeroSlide,
+  ProductSlide,
   ProblemSlide,
-  OriginStorySlide,
   SolutionSlide,
-  MarketSlide,
   BusinessModelSlide,
+  InnovationSlide,
   FinancialsSlide,
   CompetitiveEdgeSlide,
-  RoadmapSlide,
+  TeamSlide,
   AskSlide
 ]
 
